@@ -45,3 +45,7 @@ header .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+body{
+    background: url(act.jpg)no-repeat;
+}
