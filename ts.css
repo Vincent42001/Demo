@@ -66,7 +66,7 @@ body {
  }
  header .logo{
   position: relative;
-  color: #ff7b00;
+  color: #6ae1ff;
   background-color:#000000 ;
   font-size: 40px;
   text-decoration: none;
@@ -75,7 +75,7 @@ body {
 
 }
 header .navigation a{
-  color: #ff7b00;
+  color: #6ae1ff;
   background: #ffffff;
   text-decoration: none;
   font-weight: 500;
@@ -93,7 +93,7 @@ header .navigation a:hover{
   background: #fff;
 }
 header .navigation a{
-  color: #ff7b00;
+  color: #6ae1ff;
   background: #ffffff;
   text-decoration: none;
   font-weight: 500;
