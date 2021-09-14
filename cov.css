@@ -56,7 +56,6 @@ header .logo{
 }
 body{
   background: url(covido.jpg);
-  padding: 0 10px;
 }
 .wrapper{
   max-width: 500px;
