@@ -51,6 +51,7 @@
   
   img {
     /* border-radius: 10px; */
+    float:right;
     display: block;
     height: 800px;
     width: 800px;
