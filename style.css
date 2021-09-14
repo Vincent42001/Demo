@@ -52,8 +52,8 @@
   img {
     /* border-radius: 10px; */
     display: block;
-    height: 600px;
-    width: 650px;
+    height: 550px;
+    width: 600px;
   }
 
   header .navigation a:not(:last-child){
