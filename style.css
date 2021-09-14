@@ -30,8 +30,7 @@
   header .logo{
     position: relative;
     color: #ff7b00;
-    background: #226A80;
-    font-size: 80px;
+    font-size: 60px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
@@ -64,7 +63,6 @@
   
   .content .info h2{
     color: #ff7300;
-    background: #226A80;
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 800;
