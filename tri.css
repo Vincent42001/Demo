@@ -94,13 +94,12 @@ header .navigation a{
   transition: 0.3s;
   transition-property: background;
 }
-section{
+header{
   position: relative;
+  top: 0;
   width: 100%;
-  min-height: 100vh;
+  padding: 30px 100px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-size: cover;
-  background-position: center;
+  justify-content: space-between;
+  align-items: center;
 }
