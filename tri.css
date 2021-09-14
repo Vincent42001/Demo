@@ -65,4 +65,24 @@ body {
   font-weight: 800;
   letter-spacing: 1px;
 }
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header .logo{
+  position: relative;
+  color: #ff7b00;
+  font-size: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
   
