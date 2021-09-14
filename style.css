@@ -53,6 +53,7 @@
     /* border-radius: 10px; */
     position: absolute;
     top: 18%;
+    right: -25px;
     display: block;
     height: 500px;
     width: 500px;
