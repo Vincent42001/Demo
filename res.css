@@ -133,3 +133,6 @@ body{
   background: url(food.jpg  );
   padding: 0 10px;
 }
+.single-menu h4{
+  color:#ffffff;
+}
