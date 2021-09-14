@@ -56,4 +56,13 @@ body {
     text-decoration: none;
     text-transform: uppercase;
  }
+ header .logo{
+  position: relative;
+  color: #ff7b00;
+  font-size: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
   
