@@ -51,10 +51,11 @@
   
   img {
     /* border-radius: 10px; */
+    position: absolute;
     top: 30%;
     right: -25px;
     height: 60px;
-    width: 0px;
+    width: 50px;
   }
 
   header .navigation a:not(:last-child){
