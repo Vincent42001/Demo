@@ -8,7 +8,6 @@ body {
     padding: 15px;
     background-color: #dddddd;
     border-radius: 5px;
-
   }
   
   #title {
@@ -24,15 +23,6 @@ body {
     margin: 0 auto;
     padding: 15px;
     background-color: #ffffff;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background: url(bg1.jpg)no-repeat;
-    background-size: cover;
-    background-position: center;
   }
   
   #image {
@@ -58,4 +48,4 @@ body {
   h5{
      text-align: center;
   }
- 
+  
