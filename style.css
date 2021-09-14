@@ -111,7 +111,8 @@
   
   .media-icons a{
     position: relative;
-    color: #111;
+    color: rgb(255, 102, 0);
+    background: #ffffff;
     font-size: 25px;
     transition: 0.3s;
     transition-property: transform;
