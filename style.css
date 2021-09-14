@@ -49,6 +49,13 @@
     transition-property: background;
   }
   
+  img {
+    /* border-radius: 6px; */
+    display: block;
+    height: 200px;
+    width: 200px;
+  }
+  
   header .navigation a:not(:last-child){
     margin-right: 30px;
   }
