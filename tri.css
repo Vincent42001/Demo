@@ -60,11 +60,8 @@ body {
   }
   h3{
     text-align: center;
-    font-size: 70px;
+    font-size: 30px;
     color: #000000;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
  }
  header .logo{
   position: relative;
