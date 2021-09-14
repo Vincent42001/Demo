@@ -77,6 +77,15 @@ body{
   text-transform: uppercase;
   text-align: center;
 }
+.wrapper .inputfield{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ff9100;
+  background-color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
 
 .wrapper .form{
   width: 100%;
