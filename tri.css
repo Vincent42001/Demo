@@ -6,7 +6,7 @@ body {
   #main {
     margin: 30px auto;
     padding: 15px;
-    background-color: #000000;
+    background-color: #ff6333;
     border-radius: 5px;
   }
   
@@ -22,7 +22,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #ffffff;
+    background-color: #000000;
   }
   
   #image {
@@ -76,33 +76,4 @@ header .navigation a{
   transition: 0.3s;
   transition-property: background;
 }
-header .logo{
-  position: relative;
-  color: #ff7b00;
-  font-size: 60px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
-section{
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  background: url(bg1.jpg)no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-header{
-  position: relative;
-  top: 0;
-  width: 100%;
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  
