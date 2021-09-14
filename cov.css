@@ -55,7 +55,7 @@ header .logo{
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background: url(covids.jpg)no-repeat;
+  background: url(covids.jpg);
   padding: 0 10px;
 }
 .wrapper{
