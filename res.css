@@ -74,6 +74,7 @@ body{
   display:block;
   font-size:18px;
   color: #ff7720;
+  background-color: black;
   font-style:italic;
   margin-bottom:10px;
 }
@@ -126,7 +127,7 @@ body{
 }
 .single-menu h4 span{
   float:right;
-  color:#000000;
+  color:#ff7720;
   font-style:italic;
 }
 body{
