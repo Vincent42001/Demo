@@ -6,7 +6,7 @@ body {
   #main {
     margin: 30px auto;
     padding: 15px;
-    background-color: #ffad33;
+    background-color: #ff7b00;
     border-radius: 5px;
   }
   
@@ -22,7 +22,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 15px;
-    background-color: #ffffff;
+    background-color: #000000;
   }
   
   #image {
