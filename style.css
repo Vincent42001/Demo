@@ -55,8 +55,8 @@
     top: 18%;
     right: 165px;
     display: block;
-    height: 450px;
-    width: 500px;
+    height: 350px;
+    width: 300px;
   }
 
   header .navigation a:not(:last-child){
