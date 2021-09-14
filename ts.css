@@ -1,0 +1,114 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+  }
+  
+  #main {
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #ff6333;
+    border-radius: 5px;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  #main > p {
+    text-align: center;
+    
+  }
+  
+  #img-div{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    position: center;
+  }
+  
+  #image {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  #tribute-info {
+    max-width: 600px;
+    margin: 0 auto;
+    
+  }
+  
+  #tribute-info > h3 {
+    text-align: center;
+  }
+  
+  #tribute-info > ul li {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+  
+  h5{
+     text-align: center;
+  }
+  h2{
+    text-align: center;
+    font-size: 70px;
+    color: #000000;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  h3{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+ }
+ header .logo{
+  position: relative;
+  color: #ff7b00;
+  background-color:#000000 ;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+
+}
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+
+header .navigation a:hover{
+  background: #fff;
+}
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
