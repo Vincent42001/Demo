@@ -1,6 +1,6 @@
 header .logo{
     position: relative;
-    color: #000000;
+    color: #ffffff;
     font-size: 40px;
     text-decoration: none;
     text-transform: uppercase;
@@ -120,7 +120,7 @@ body{
 .single-menu h4{
   text-transform:capitalize;
   font-size:22px;
-  border-bottom:1px dashed #333;
+  border-bottom:1px dashed rgb(255, 255, 255);
   margin-bottom:5px;
   padding-bottom:5px;
 }
