@@ -130,7 +130,7 @@ body{
   font-style:italic;
 }
 body{
-  background: url(images\bgb.jpg);
+  background: url(bgb.jpg);
   padding: 0 10px;
 }
 .menu-content p{
