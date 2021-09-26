@@ -1,10 +1,5 @@
 body{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  min-height: 100vh;
   background: black;
-
 }
 #main {
   background-color: #000000;
