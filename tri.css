@@ -66,6 +66,7 @@ h3{
 }
 h4 {
   display: block;
+  text-align: justify;
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
   margin-inline-start: 0px;
