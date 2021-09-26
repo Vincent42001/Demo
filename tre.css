@@ -44,17 +44,15 @@ header .logo{
     align-items: center;
   }
   *{
-      margin:center;
+      margin:0;
       padding: 0;
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
     }
     body{
-      justify-content: center;
-      align-items: center;
+
       background:black;
-      min-height: 100vh;
-      background-attachment: fixed;
+  
     }
   .container{
     position: relative;
