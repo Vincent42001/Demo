@@ -231,7 +231,6 @@ margin-bottom: 0;
 .wrapper .form .inputfield.terms{
   flex-direction: row;
 }
-
 }
 input[type="date" i] {
    width: 100%;
