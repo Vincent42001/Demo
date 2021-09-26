@@ -1,6 +1,7 @@
 header .logo{
     position: relative;
     color: #ff7b00;
+
     font-size: 40px;
     text-decoration: none;
     text-transform: uppercase;
@@ -43,19 +44,14 @@ header .logo{
     align-items: center;
   }
   *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: poppins, sans-serif;
-  }
-  body{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    min-height: 100vh;
-    background:#000;
-    background-attachment: fixed;
-  }
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body{
+      background:black;
+    }
   .container{
     position: relative;
     width: 1150px;
