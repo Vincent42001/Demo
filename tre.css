@@ -46,11 +46,15 @@ header .logo{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+     font-family: poppins, sans-serif;
   }
-
   body{
-    background:black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background:#000;
+    background-attachment: fixed;
   }
   .container{
     position: relative;
