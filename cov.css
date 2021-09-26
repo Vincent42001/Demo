@@ -230,10 +230,8 @@ margin-bottom: 0;
 }
 .wrapper .form .inputfield.terms{
   flex-direction: row;
-}
-.inputfield
-color: #ff9100;
-background-color: rgb(0, 0, 0);
+
+
 }
 input[type="date" i] {
    width: 100%;
