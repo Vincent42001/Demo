@@ -7,10 +7,10 @@ body{
   background-attachment: fixed;
 }
 #main {
-  margin: 30px auto;
-  padding: 15px;
+  margin: 0;
+  padding: 0;
   background-color: #000000;
-  border-radius: 5px;
+  font-family: poppins, sans-serif;
 }
 
 #title {
