@@ -1,7 +1,6 @@
 header .logo{
   position: relative;
   color: #ff7b00;
-
   font-size: 40px;
   text-decoration: none;
   text-transform: uppercase;
@@ -42,7 +41,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  }
+}
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
 *{
