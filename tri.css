@@ -1,13 +1,16 @@
-body {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
+body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #333, #bb02ff);
+  background-attachment: fixed;
 }
-
 #main {
-  margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     font-family: poppins, sans-serif;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #000000;
+  border-radius: 5px;
 }
 
 #title {
