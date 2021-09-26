@@ -20,7 +20,7 @@ body {
   
 }
 
-#img{
+#img-div{
   max-width: 800px;
   margin: 0 auto;
   padding: 15px;
@@ -50,7 +50,7 @@ body {
 
 h5{
    text-align: center;
-   color: #ffffff;
+   color: #ff7b00;
 }
 h2{
   text-align: center;
