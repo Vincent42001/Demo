@@ -5,6 +5,12 @@ header .logo{
     text-decoration: none;
     text-transform: uppercase;
   }
+  header .navigation a:not(:last-child){
+    margin-right: 30px;
+  }
+  header .navigation a:hover{
+    background: #fff;
+  }
   header .navigation a{
     color: #ff7b00;
     background: #ffffff;
@@ -16,17 +22,11 @@ header .logo{
     transition: 0.3s;
     transition-property: background;
   }
-  header .navigation a:not(:last-child){
-    margin-right: 30px;
-  }
-  header .navigation a:hover{
-    background: #fff;
-  }
   header{
     position: relative;
     top: 0;
     width: 100%;
-    padding: 30px 26px;
+    padding: 2px 36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
