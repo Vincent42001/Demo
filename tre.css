@@ -5,9 +5,7 @@ header .logo{
     font-size: 40px;
     text-decoration: none;
     text-transform: uppercase;
-  
-  
-  }
+}
   header .navigation a{
     color: #ff7b00;
     background: #ffffff;
@@ -18,14 +16,13 @@ header .logo{
     border-radius: 20px;
     transition: 0.3s;
     transition-property: background;
-  }
+}
   header .navigation a:not(:last-child){
     margin-right: 30px;
-  }
-  
+}
   header .navigation a:hover{
     background: #fff;
-  }
+}
   header .navigation a{
     color: #ff7b00;
     background: #ffffff;
@@ -46,7 +43,6 @@ header .logo{
     justify-content: space-between;
     align-items: center;
   }
-  
   *{
     margin: 0;
     padding: 0;
@@ -58,7 +54,7 @@ header .logo{
     align-items: center;
     display: flex;
     min-height: 100vh;
-    background: linear-gradient(45deg, #333, #bb02ff);
+    background:#000;
     background-attachment: fixed;
   }
   .container{
@@ -126,13 +122,13 @@ header .logo{
   }
   .container .card:nth-child(1) .circle,
   .container .card:nth-child(1) .content a{
-    background: #ffaf00;
+    background: #ff7b00;
   }
   .container .card:nth-child(2) .circle,
   .container .card:nth-child(2) .content a{
-    background: #da2268;
+    background: #ff7b00;
   }
   .container .card:nth-child(3) .circle,
   .container .card:nth-child(3) .content a{
-    background: #bb02ff;
+    background: #ff7b00;
   }
