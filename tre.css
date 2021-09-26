@@ -44,9 +44,7 @@ header .logo{
     align-items: center;
   }
   *{
-      margin: 0;
-      justify-content: center;
-      align-items: center;
+      margin:center;
       padding: 0;
       box-sizing: border-box;
       font-family: 'Montserrat', sans-serif;
