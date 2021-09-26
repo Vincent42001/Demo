@@ -51,15 +51,12 @@ header{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   font-family: poppins, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 body{
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  min-height: 100vh;
-  background: linear-gradient(45deg, #333, #bb02ff);
-  background-attachment: fixed;
+  background:black;
+}
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
