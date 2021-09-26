@@ -100,7 +100,7 @@ header .navigation a{
 }
 header{
   position: relative;
-  top: 160%;
+  top: 0;
   width: 100%;
   padding: 30px 0px;
   display: flex;
