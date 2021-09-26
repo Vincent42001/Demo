@@ -36,21 +36,6 @@ body{
   padding-bottom: 10px;
 }
 
-#tribute-info {
-  max-width: 600px;
-  margin: 0 auto;
-  
-}
-
-#tribute-info > h3 {
-  text-align: center;
-}
-
-#tribute-info > ul li {
-  margin-bottom: 10px;
-  line-height: 30px;
-}
-
 h5{
    text-align: center;
    color: #ff7b00;
