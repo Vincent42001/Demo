@@ -117,7 +117,7 @@ header .navigation a{
 header{
   position: relative;
   top: 0;
-  width: 150%;
+  width: 60%;
   padding: 30px 0px;
   display: flex;
   justify-content: space-between;
