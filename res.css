@@ -73,6 +73,7 @@ body{
 }
 .title h4{
   text-transform:capitalize;
+  color: ff7b00;
   font-size:36px;
   position:relative;
   display:inline-block;
@@ -83,6 +84,7 @@ body{
   font-size:18px;
   color: #ffffff;
   font-style:italic;
+  font-size: 50px;
   margin-bottom:10px;
 }
 .title h4:before{
