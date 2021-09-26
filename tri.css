@@ -1,22 +1,21 @@
 *{
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: px;
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background:black;
+background:black;
 }
 #title {
-  text-align: center;
-  font-size: 40px;
-  color: #fff;
-  font-style: oblique;
+text-align: center;
+font-size: 40px;
+color: #fff;
+font-style: oblique;
 }
 #main > p {
-  text-align: center;
-  
+text-align: center;
 }
 #img-div{
   max-width: 800px;
