@@ -51,8 +51,8 @@ header .logo{
     }
     body{
       justify-content: center;
-      background:black;
       align-items: center;
+      background:black;
       min-height: 100vh;
       background-attachment: fixed;
     }
