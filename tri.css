@@ -4,10 +4,10 @@ body {
 }
 
 #main {
-  margin: 30px auto;
-  padding: 15px;
-  background-color: #000000;
-  border-radius: 5px;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: poppins, sans-serif;
 }
 
 #title {
