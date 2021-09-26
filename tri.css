@@ -99,7 +99,17 @@ header .navigation a{
 header .navigation a:not(:last-child){
   margin-right: 30px;
 }
-
 header .navigation a:hover{
   background: #fff;
+}
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
 }
