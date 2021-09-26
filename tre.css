@@ -53,6 +53,7 @@ header .logo{
       background:black;
       align-items: center;
       min-height: 100vh;
+      background-attachment: fixed;
     }
   .container{
     position: relative;
