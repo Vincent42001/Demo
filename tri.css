@@ -6,12 +6,6 @@ body{
   background: black;
   background-attachment: fixed;
 }
-#main {
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  font-family: poppins, sans-serif;
-}
 
 #title {
   text-align: center;
