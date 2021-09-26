@@ -51,6 +51,7 @@ header .logo{
     }
     body{
       background:black;
+      align-items: center;
     }
   .container{
     position: relative;
