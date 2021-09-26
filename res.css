@@ -22,7 +22,6 @@ header .navigation a{
 header .navigation a:not(:last-child){
   margin-right: 30px;
 }
-
 header .navigation a:hover{
   background: #fff;
 }
@@ -30,12 +29,11 @@ header{
   position: relative;
   top: 0;
   width: 100%;
-  padding: 30px 26px;
+  padding: 30px 46px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 *{
   margin: 0;
   padding: 0px;
