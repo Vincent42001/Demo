@@ -76,6 +76,7 @@ body{
   color: #ff7b00;
   font-size:36px;
   position:relative;
+  font-style: italic;
   display:inline-block;
   padding-bottom:10px;
 }
