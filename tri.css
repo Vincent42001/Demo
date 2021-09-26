@@ -5,8 +5,6 @@ header .logo{
   font-size: 40px;
   text-decoration: none;
   text-transform: uppercase;
-
-
 }
 header .navigation a{
   color: #ff7b00;
@@ -22,7 +20,6 @@ header .navigation a{
 header .navigation a:not(:last-child){
   margin-right: 30px;
 }
-
 header .navigation a:hover{
   background: #fff;
 }
@@ -58,16 +55,9 @@ body{
   align-items: center;
   display: flex;
   min-height: 100vh;
-  background: linear-gradient(45deg, #333, #bb02ff);
+  background:#000;
   background-attachment: fixed;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-   font-family: poppins, sans-serif;
-}
-
   #title {
     text-align: center;
     font-size: 40px;
@@ -122,4 +112,4 @@ body{
     font-size: 30px;
     color: #000000;
  }
-
+ 

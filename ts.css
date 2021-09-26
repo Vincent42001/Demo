@@ -1,15 +1,63 @@
-body {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-  }
-  
-  #main {
-    margin: 30px auto;
-    padding: 15px;
-    background-color: #6ae1ff;
-    border-radius: 5px;
-  }
-  
+header .logo{
+  position: relative;
+  color: #ff7b00;
+
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+header .navigation a:hover{
+  background: #fff;
+}
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: poppins, sans-serif;
+}
+body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background:#000;
+  background-attachment: fixed;
+}
   #title {
     text-align: center;
     font-size: 40px;
@@ -64,51 +112,4 @@ body {
     font-size: 30px;
     color: #000000;
  }
- header .logo{
-  position: relative;
-  color: #6ae1ff;
-  background-color:#000000 ;
-  font-size: 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-
-
-}
-header .navigation a{
-  color: #6ae1ff;
-  background: #ffffff;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s;
-  transition-property: background;
-}
-header .navigation a:not(:last-child){
-  margin-right: 30px;
-}
-
-header .navigation a:hover{
-  background: #fff;
-}
-header .navigation a{
-  color: #6ae1ff;
-  background: #ffffff;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s;
-  transition-property: background;
-}
-header{
-  position: relative;
-  top: 0;
-  width: 100%;
-  padding: 30px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+ 
