@@ -96,3 +96,10 @@ header .navigation a{
   transition: 0.3s;
   transition-property: background;
 }
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+
+header .navigation a:hover{
+  background: #fff;
+}
