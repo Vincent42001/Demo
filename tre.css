@@ -19,6 +19,7 @@ header .navigation a{
 header .navigation a:not(:last-child){
   margin-right: 30px;
 }
+
 header .navigation a:hover{
   background: #fff;
 }
