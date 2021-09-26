@@ -1,12 +1,9 @@
 header .logo{
   position: relative;
   color: #ff7b00;
-
   font-size: 40px;
   text-decoration: none;
   text-transform: uppercase;
-
-
 }
 header .navigation a{
   color: #ff7b00;
@@ -22,7 +19,6 @@ header .navigation a{
 header .navigation a:not(:last-child){
   margin-right: 30px;
 }
-
 header .navigation a:hover{
   background: #fff;
 }

@@ -1,3 +1,36 @@
+header .logo{
+  position: relative;
+  color: #ff7b00;
+  font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+header .navigation a:hover{
+  background: #fff;
+}
+header .navigation a{
+  color: #ff7b00;
+  background: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+  transition-property: background;
+}
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 2px 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 *{
   margin: 0;
   margin-bottom: 50px;
@@ -54,37 +87,4 @@ h4 {
   margin-inline-end: 0px;
   font-weight: bold;
   color: #ffffff;
-}
-header .logo{
-  position: relative;
-  color: #ff7b00;
-  font-size: 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-header .navigation a:not(:last-child){
-  margin-right: 30px;
-}
-header .navigation a:hover{
-  background: #fff;
-}
-header .navigation a{
-  color: #ff7b00;
-  background: #ffffff;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s;
-  transition-property: background;
-}
-header{
-  position: relative;
-  top: 0;
-  width: 100%;
-  padding: 2px 36px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
