@@ -53,6 +53,20 @@ header{
   box-sizing: border-box;
    font-family: poppins, sans-serif;
 }
+body{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #333, #bb02ff);
+  background-attachment: fixed;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: poppins, sans-serif;
+}
 
   #title {
     text-align: center;
