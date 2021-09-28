@@ -3,16 +3,22 @@ body::before {
     content: '';
     height: 60px;
   }
-  .mb-4 {
+.mb-4 {
     margin: -10px;;
- .h2 {
-        font-size: 50px; 
-  #map {
+.h2 {
+        display: block;
+        font-size: 600px;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+#map {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-  }
-  
+}
   @media (min-width: 768px) {
     .news-input {
       width: 50%;
