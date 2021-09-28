@@ -53,6 +53,7 @@ table{
 th, td{
   border:2px solid dodgerblue;
   background:#fff;
+  color:orange;
   cursor:default;
   padding:3px;
 }
@@ -67,4 +68,6 @@ th, td{
   font-weight:bolder;
   border-radius:4px;
 }
+
+
 
