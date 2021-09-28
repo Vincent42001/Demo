@@ -15,6 +15,7 @@ table{
   margin:200px auto;
   text-align:center;
   background:#fff;
+  position: center;
   border:4px solid dodgerblue;
   padding:2px;
 }
