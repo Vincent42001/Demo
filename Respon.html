@@ -1,84 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Frontend Bootcamp</title>
-  </head>
-  <body>
-    <!-- Navbar -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="index.css" />
+    <title>Responsive Website</title>
+</head>
+<body bg-warning>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-      <div class="container">
-        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="#learn" class="nav-link">What You'll Learn</a>
-            </li>
-            <li class="nav-item">
-              <a href="#questions" class="nav-link">Questions</a>
-            </li>
-            <li class="nav-item">
-              <a href="#instructors" class="nav-link">Instructors</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-     <!-- Contact & Map -->
-    <section class="p-5">
-      <div class="container">
-        <div class="row g-4">
-          <div class="col-md">
-            <h2 class="text-center mb-4">Contact Info</h2>
-            <ul class="list-group list-group-flush lead">
-              <li class="list-group-item">
-                <span class="fw-bold">Main Location:</span> 50 Main st Boston MA
+        <div class="container">
+          <a href="#" class="navbar-brand">Rizzy</a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#learn" class="nav-link">What You'll Learn</a>
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+              <li class="nav-item">
+                <a href="#questions" class="nav-link">Questions</a>
               </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Student Phone:</span> (333) 333-3333
-              </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Enrollment Email:</span> (555)
-                enroll@frontendbc.test
-              </li>
-              <li class="list-group-item">
-                <span class="fw-bold">Student Email:</span>
-                student@frontendbc.test
+              <li class="nav-item">
+                <a href="#instructors" class="nav-link">Instructors</a>
               </li>
             </ul>
           </div>
-          <div class="col-md">
-            <div id="map"></div>
+        </div>
+      </nav>
+      <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-4">Contact Info</h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <span class="fw-bold">Main Location:</span> 26 Maya-Maya, Agdao, Davao City, Davao del Sur
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Phone Number:</span> 09451074252
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Personal Email:</span> eljaytumulak@gmail.com
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Student Email:</span> etumulak_200000000528@uic.edu.ph
+                </li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+      <script> mapboxgl.accessToken = 'pk.eyJ1Ijoicml6enlpIiwiYSI6ImNrdTJ1Y2x4OTFpMDQydW93NGl2ejFpcnkifQ.ZKLjs7MqVOtw87flvi6YMA';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11', 
+        center: [125.626534, 7.091510], 
+        zoom: 18,
+        });</script>
+</body>
+</html>
