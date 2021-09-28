@@ -44,18 +44,27 @@ background:black;
 }
 
 table{
-  margin:200px auto;
+  margin:20px auto;
   text-align:center;
   background:#fff;
-  border:4px solid dodgerblue;
+  border:4px solid DarkOrange;
   padding:2px;
 }
 th, td{
+  border:2px solid DarkOrange;
+  background:#fff;
+  color:black;
+  cursor:default;
+  padding:3px;
+  font-size: 40px;
+}
+td{
   border:2px solid dodgerblue;
   background:#fff;
   color:orange;
   cursor:default;
   padding:3px;
+  font-size: 25px;
 }
 .butonlar{
   cursor:pointer;
@@ -68,6 +77,12 @@ th, td{
   font-weight:bolder;
   border-radius:4px;
 }
-
+h2 {
+    text-align: center;
+    font-size: 70px;
+    color: #ff7b00;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
 
 
