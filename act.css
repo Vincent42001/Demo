@@ -1,3 +1,4 @@
+
 header .logo{
   position: relative;
   color: #ff7b00;
@@ -42,3 +43,37 @@ body{
 background:black;
 }
 
+table{
+  margin:200px auto;
+  text-align:center;
+  background:#fff;
+  border:4px solid dodgerblue;
+  padding:2px;
+}
+th, td{
+  border:2px solid dodgerblue;
+  background:#fff;
+  cursor:default;
+  padding:3px;
+}
+.butonlar{
+  cursor:pointer;
+  background:red;
+  color:white;
+  text-align:center;
+  outline:none;
+  border:none;
+  padding:10px 20px;
+  font-weight:bolder;
+  border-radius:4px;
+}
+
+
+
+////script
+$(".butonlar").click(function(){
+  $(this).html("AKTİF");
+  $(this).css({
+    "background-color":"green"
+  });
+})
