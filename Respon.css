@@ -5,7 +5,8 @@ body::before {
   }
   .mb-4 {
     margin: -10px;;
-}
+ .h2 {
+        font-size: 50px; 
   #map {
     width: 100%;
     height: 100%;
