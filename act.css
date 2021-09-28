@@ -68,12 +68,3 @@ th, td{
   border-radius:4px;
 }
 
-
-
-////script
-$(".butonlar").click(function(){
-  $(this).html("AKTİF");
-  $(this).css({
-    "background-color":"green"
-  });
-})
