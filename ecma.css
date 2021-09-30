@@ -1,0 +1,107 @@
+header .logo{
+    position: relative;
+    color: #ff7b00;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  header .navigation a:not(:last-child){
+    margin-right: 30px;
+  }
+  header .navigation a:hover{
+    background: #fff;
+  }
+  header .navigation a{
+    color: #ff7b00;
+    background: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+  }
+  header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 2px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  *{
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+  background:black;
+  }
+  #title {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  font-style: oblique;
+  }
+  #main > p {
+  text-align: center;
+  }
+  #img-div{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    position: center;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 10px;
+  }
+  h5{
+     text-align: center;
+     color: #ff7b00;
+  }
+  h1{
+    text-align: center;
+    font-size: 70px;
+    color: #ff7b00;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  h2{
+    text-align: center;
+    background-color: White;
+    font-size: 70px;
+    color: #ff7b00;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  h3{
+    text-align: center;
+    background-color: White;
+    font-size: 40px;
+    color: #ff7b00;
+  }
+  h4 {
+    display: block;
+    text-align: justify;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  iframe {
+      padding-left: 15px;
+      padding-top: 70px;
+      center;
+  }
